@@ -7,6 +7,7 @@ import { createBrowserRouter } from "react-router";
 import Register from './pages/Register'
 import Login from './pages/Login'
 import HomePage from './pages/HomePage'
+import Crud from './pages/Crud';
 
 const rootElement = document.getElementById("root");
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
     path : "/homepage",
     Component : HomePage
   },
+  {
+    path : "/crud",
+    Component : Crud
+  }
 
 ])
 
